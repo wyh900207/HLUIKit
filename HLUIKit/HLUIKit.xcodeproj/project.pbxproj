@@ -8,29 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		110721671F70FAD6008687A0 /* HLImageItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 110721661F70FAD6008687A0 /* HLImageItemCell.m */; };
-		8FBF405796FBC456598215C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBF4C753E6826504402B2E0 /* Main.storyboard */; };
-		8FBF45F365602223BEF4E640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBF4AE2737110294F9BE2DC /* main.m */; };
-		8FBF47C9FB2D41AEE647B340 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBF45B30D2AA1824AA38C82 /* ViewController.m */; };
-		8FBF4AA76BA5DD355D8ADCD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBF4F9AD218C75C1B265091 /* AppDelegate.m */; };
-		8FBF4DEB6FF3D10F4698ADC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBF4D2F76787F664008A766 /* Assets.xcassets */; };
-		8FBF4F8CFDF4CF51923F7461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBF4964964886777A8DF620 /* LaunchScreen.storyboard */; };
+		110721741F710764008687A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1107216A1F710764008687A0 /* AppDelegate.m */; };
+		110721751F710764008687A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1107216B1F710764008687A0 /* Assets.xcassets */; };
+		110721761F710764008687A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1107216C1F710764008687A0 /* LaunchScreen.storyboard */; };
+		110721771F710764008687A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1107216E1F710764008687A0 /* Main.storyboard */; };
+		110721781F710764008687A0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 110721701F710764008687A0 /* Info.plist */; };
+		110721791F710764008687A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 110721711F710764008687A0 /* main.m */; };
+		1107217A1F710764008687A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110721731F710764008687A0 /* ViewController.m */; };
 		ED0087EB4FCC19FD8619E3FA /* libPods-HLUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEA09D73158274FF4367434 /* libPods-HLUIKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		110721651F70FAD6008687A0 /* HLImageItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLImageItemCell.h; sourceTree = "<group>"; };
 		110721661F70FAD6008687A0 /* HLImageItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLImageItemCell.m; sourceTree = "<group>"; };
+		110721691F710764008687A0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1107216A1F710764008687A0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1107216B1F710764008687A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1107216D1F710764008687A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1107216F1F710764008687A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		110721701F710764008687A0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110721711F710764008687A0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		110721721F710764008687A0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		110721731F710764008687A0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		304067F05937043CC30C957E /* Pods-HLUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLUIKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLUIKit/Pods-HLUIKit.release.xcconfig"; sourceTree = "<group>"; };
-		8FBF4021EB332BE9C60C660A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = HLUIKit/Info.plist; sourceTree = "<group>"; };
 		8FBF403F6535CB58205FA98A /* HLUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FBF441DE5AB38992781E90D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8FBF45B30D2AA1824AA38C82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = HLUIKit/ViewController.m; sourceTree = "<group>"; };
-		8FBF4681CE790D01D12C8173 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = HLUIKit/AppDelegate.h; sourceTree = "<group>"; };
-		8FBF46B0EEF8F2C84D413E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8FBF4AC94B5643965EFBF2B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = HLUIKit/ViewController.h; sourceTree = "<group>"; };
-		8FBF4AE2737110294F9BE2DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8FBF4D2F76787F664008A766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = HLUIKit/Assets.xcassets; sourceTree = "<group>"; };
-		8FBF4F9AD218C75C1B265091 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = HLUIKit/AppDelegate.m; sourceTree = "<group>"; };
 		ACEA09D73158274FF4367434 /* libPods-HLUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLUIKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52225AC6241FF5ED0201C3C /* Pods-HLUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLUIKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLUIKit/Pods-HLUIKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,40 +48,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		110721641F70FA8E008687A0 /* AppDelegate */ = {
+		110721681F710764008687A0 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				8FBF4021EB332BE9C60C660A /* Info.plist */,
-				8FBF4D2F76787F664008A766 /* Assets.xcassets */,
-				8FBF4964964886777A8DF620 /* LaunchScreen.storyboard */,
-				8FBF445F99692107BFF2EF69 /* Supporting Files */,
-				8FBF4681CE790D01D12C8173 /* AppDelegate.h */,
-				8FBF4F9AD218C75C1B265091 /* AppDelegate.m */,
-				8FBF4C753E6826504402B2E0 /* Main.storyboard */,
-				8FBF4AC94B5643965EFBF2B8 /* ViewController.h */,
-				8FBF45B30D2AA1824AA38C82 /* ViewController.m */,
+				110721691F710764008687A0 /* AppDelegate.h */,
+				1107216A1F710764008687A0 /* AppDelegate.m */,
+				1107216B1F710764008687A0 /* Assets.xcassets */,
+				1107216C1F710764008687A0 /* LaunchScreen.storyboard */,
+				1107216E1F710764008687A0 /* Main.storyboard */,
+				110721701F710764008687A0 /* Info.plist */,
+				110721711F710764008687A0 /* main.m */,
+				110721721F710764008687A0 /* ViewController.h */,
+				110721731F710764008687A0 /* ViewController.m */,
 			);
-			name = AppDelegate;
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		8FBF41091B192CFA36D56644 = {
 			isa = PBXGroup;
 			children = (
-				110721641F70FA8E008687A0 /* AppDelegate */,
+				110721681F710764008687A0 /* AppDelegate */,
 				8FBF4A06290D187029260EAC /* Products */,
 				8FBF4DF7D5E84DA6CE74417F /* HLUIKit */,
 				CC7E9013117A103F6650DC51 /* Pods */,
 				9EFF229328DE4EFF41F6BC7F /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		8FBF445F99692107BFF2EF69 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8FBF4AE2737110294F9BE2DC /* main.m */,
-			);
-			name = "Supporting Files";
-			path = HLUIKit;
 			sourceTree = "<group>";
 		};
 		8FBF4A06290D187029260EAC /* Products */ = {
@@ -154,6 +146,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 8FBF41091B192CFA36D56644;
 			productRefGroup = 8FBF4A06290D187029260EAC /* Products */;
@@ -170,9 +163,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FBF4DEB6FF3D10F4698ADC5 /* Assets.xcassets in Resources */,
-				8FBF4F8CFDF4CF51923F7461 /* LaunchScreen.storyboard in Resources */,
-				8FBF405796FBC456598215C2 /* Main.storyboard in Resources */,
+				110721751F710764008687A0 /* Assets.xcassets in Resources */,
+				110721771F710764008687A0 /* Main.storyboard in Resources */,
+				110721761F710764008687A0 /* LaunchScreen.storyboard in Resources */,
+				110721781F710764008687A0 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,32 +225,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FBF45F365602223BEF4E640 /* main.m in Sources */,
-				8FBF4AA76BA5DD355D8ADCD0 /* AppDelegate.m in Sources */,
+				1107217A1F710764008687A0 /* ViewController.m in Sources */,
 				110721671F70FAD6008687A0 /* HLImageItemCell.m in Sources */,
-				8FBF47C9FB2D41AEE647B340 /* ViewController.m in Sources */,
+				110721791F710764008687A0 /* main.m in Sources */,
+				110721741F710764008687A0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8FBF4964964886777A8DF620 /* LaunchScreen.storyboard */ = {
+		1107216C1F710764008687A0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8FBF46B0EEF8F2C84D413E55 /* Base */,
+				1107216D1F710764008687A0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = HLUIKit;
 			sourceTree = "<group>";
 		};
-		8FBF4C753E6826504402B2E0 /* Main.storyboard */ = {
+		1107216E1F710764008687A0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8FBF441DE5AB38992781E90D /* Base */,
+				1107216F1F710764008687A0 /* Base */,
 			);
 			name = Main.storyboard;
-			path = HLUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
