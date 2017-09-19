@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HLUIKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A person iOS UIKit use to keep programing faster."
 
   # This description is used to generate tags and improve search results.
