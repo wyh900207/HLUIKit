@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "HLImageItemCell.h"
 
 @interface ViewController ()
 
@@ -18,7 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self setBackgroundColor];
+    [self setupUI];
+}
+
+- (void)setupUI {
+    HLImageItemCell *cell = [HLImageItemCell new];
+    cell.center = self.view.center;
+    cell.bounds = CGRectMake(0, 0, 200, 200);
+
+    [self.view addSubview:cell];
 }
 
 - (void)setBackgroundColor {
