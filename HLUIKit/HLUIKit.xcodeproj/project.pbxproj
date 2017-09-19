@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FBF405796FBC456598215C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBF4C753E6826504402B2E0 /* Main.storyboard */; };
+		8FBF45F365602223BEF4E640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBF4AE2737110294F9BE2DC /* main.m */; };
+		8FBF47C9FB2D41AEE647B340 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBF45B30D2AA1824AA38C82 /* ViewController.m */; };
+		8FBF4AA76BA5DD355D8ADCD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBF4F9AD218C75C1B265091 /* AppDelegate.m */; };
+		8FBF4DEB6FF3D10F4698ADC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBF4D2F76787F664008A766 /* Assets.xcassets */; };
+		8FBF4F8CFDF4CF51923F7461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBF4964964886777A8DF620 /* LaunchScreen.storyboard */; };
+		ED0087EB4FCC19FD8619E3FA /* libPods-HLUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEA09D73158274FF4367434 /* libPods-HLUIKit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		304067F05937043CC30C957E /* Pods-HLUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLUIKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLUIKit/Pods-HLUIKit.release.xcconfig"; sourceTree = "<group>"; };
+		8FBF4021EB332BE9C60C660A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		8FBF403F6535CB58205FA98A /* HLUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBF441DE5AB38992781E90D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FBF45B30D2AA1824AA38C82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8FBF4681CE790D01D12C8173 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FBF46B0EEF8F2C84D413E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FBF4AC94B5643965EFBF2B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8FBF4AE2737110294F9BE2DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FBF4D2F76787F664008A766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FBF4F9AD218C75C1B265091 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACEA09D73158274FF4367434 /* libPods-HLUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLUIKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52225AC6241FF5ED0201C3C /* Pods-HLUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLUIKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLUIKit/Pods-HLUIKit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FBF4D9BDD9B7E6602598838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0087EB4FCC19FD8619E3FA /* libPods-HLUIKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FBF41091B192CFA36D56644 = {
+			isa = PBXGroup;
+			children = (
+				8FBF4A06290D187029260EAC /* Products */,
+				8FBF4DF7D5E84DA6CE74417F /* HLUIKit */,
+				CC7E9013117A103F6650DC51 /* Pods */,
+				9EFF229328DE4EFF41F6BC7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8FBF445F99692107BFF2EF69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FBF4AE2737110294F9BE2DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FBF4A06290D187029260EAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FBF403F6535CB58205FA98A /* HLUIKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FBF4DF7D5E84DA6CE74417F /* HLUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				8FBF4021EB332BE9C60C660A /* Info.plist */,
+				8FBF4D2F76787F664008A766 /* Assets.xcassets */,
+				8FBF4964964886777A8DF620 /* LaunchScreen.storyboard */,
+				8FBF445F99692107BFF2EF69 /* Supporting Files */,
+				8FBF4681CE790D01D12C8173 /* AppDelegate.h */,
+				8FBF4F9AD218C75C1B265091 /* AppDelegate.m */,
+				8FBF4C753E6826504402B2E0 /* Main.storyboard */,
+				8FBF4AC94B5643965EFBF2B8 /* ViewController.h */,
+				8FBF45B30D2AA1824AA38C82 /* ViewController.m */,
+			);
+			path = HLUIKit;
+			sourceTree = "<group>";
+		};
+		9EFF229328DE4EFF41F6BC7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACEA09D73158274FF4367434 /* libPods-HLUIKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC7E9013117A103F6650DC51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C52225AC6241FF5ED0201C3C /* Pods-HLUIKit.debug.xcconfig */,
+				304067F05937043CC30C957E /* Pods-HLUIKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FBF4A8D887E97F753D5E291 /* HLUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FBF42B772734F78D979621A /* Build configuration list for PBXNativeTarget "HLUIKit" */;
+			buildPhases = (
+				1FD4AA2DE7F96C684FC3A138 /* [CP] Check Pods Manifest.lock */,
+				8FBF43B57A869F70AC7E5B75 /* Sources */,
+				8FBF4D9BDD9B7E6602598838 /* Frameworks */,
+				8FBF40EDA1750489DA0C5016 /* Resources */,
+				583DE1BF395050A50584A95F /* [CP] Embed Pods Frameworks */,
+				B698DD450C0D2A643A936FF9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLUIKit;
+			productName = HLUIKit;
+			productReference = 8FBF403F6535CB58205FA98A /* HLUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FBF4CFBD1EAA987E3806626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = ___FULLUSERNAME___;
+			};
+			buildConfigurationList = 8FBF4E14387A1C322FD07237 /* Build configuration list for PBXProject "HLUIKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8FBF41091B192CFA36D56644;
+			productRefGroup = 8FBF4A06290D187029260EAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FBF4A8D887E97F753D5E291 /* HLUIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FBF40EDA1750489DA0C5016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBF4DEB6FF3D10F4698ADC5 /* Assets.xcassets in Resources */,
+				8FBF4F8CFDF4CF51923F7461 /* LaunchScreen.storyboard in Resources */,
+				8FBF405796FBC456598215C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FD4AA2DE7F96C684FC3A138 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		583DE1BF395050A50584A95F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLUIKit/Pods-HLUIKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B698DD450C0D2A643A936FF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLUIKit/Pods-HLUIKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FBF43B57A869F70AC7E5B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBF45F365602223BEF4E640 /* main.m in Sources */,
+				8FBF4AA76BA5DD355D8ADCD0 /* AppDelegate.m in Sources */,
+				8FBF47C9FB2D41AEE647B340 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FBF4964964886777A8DF620 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FBF46B0EEF8F2C84D413E55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8FBF4C753E6826504402B2E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FBF441DE5AB38992781E90D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FBF43FD7F59FA289D77C67A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FBF48624C64A452322555D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304067F05937043CC30C957E /* Pods-HLUIKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLUIKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wang.homerice.HLUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FBF4CFC194A47BF21BEF457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FBF4F3DE843AB4D052981B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52225AC6241FF5ED0201C3C /* Pods-HLUIKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLUIKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wang.homerice.HLUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FBF42B772734F78D979621A /* Build configuration list for PBXNativeTarget "HLUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBF4F3DE843AB4D052981B1 /* Debug */,
+				8FBF48624C64A452322555D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FBF4E14387A1C322FD07237 /* Build configuration list for PBXProject "HLUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBF43FD7F59FA289D77C67A /* Debug */,
+				8FBF4CFC194A47BF21BEF457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FBF4CFBD1EAA987E3806626 /* Project object */;
+}
