@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HLUIKit"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A person iOS UIKit use to keep programing faster."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/wyh900207/HLUIKit.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/wyh900207/HLUIKit.git", :tag => "0.0.4" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,10 +90,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "HLUIKit/Pod", "HLUIKit/**/*.{h,m,swift}"
-  s.exclude_files = "HLUIKit/Exclude"
+  s.source_files  = "HLUIKit/Pod", "HLUIKit/HLUIKit/**/*.{h,m,swift}"
+  # s.exclude_files = "HLUIKit/Exclude"
 
-  # s.public_header_files = "HLUIKit/**/*.h"
+  # s.public_header_files = "HLUIKit/HLUIKit/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
